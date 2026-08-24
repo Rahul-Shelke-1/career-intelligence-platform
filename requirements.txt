@@ -1,3 +1,5 @@
 pre-commit
 python-dotenv
 pytest
+ruff
+mypy
