@@ -1,5 +1,10 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
 def main():
-    print("Hello from career-intelligence-platform!")
+    print(os.getenv("MY_VAR"))
 
 
 if __name__ == "__main__":
