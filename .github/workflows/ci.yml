@@ -36,7 +36,7 @@ jobs:
           uv sync --dev
 
       - name: Ruff Lint & Import Check
-        run: uv run ruff check . --fix
+        run: uv run ruff check .
 
       - name: Ruff Format Check
         run: uv run ruff format .
