@@ -1,0 +1,15 @@
+github:
+  repositories:
+    - https://github.com/huggingface/transformers
+    - https://github.com/langchain-ai/langchain
+
+  collect:
+    issues: true
+    pull_requests: true
+    discussions: true
+    releases: true
+    contributors: true
+
+  limits:
+    issues: 1
+    pull_requests: 1
